@@ -37,7 +37,7 @@ In case you want to use **sheet2rdf** in your own work you need to:
 2. Create following [Github secrets](https://docs.github.com/en/free-pro-team@latest/actions/reference/encrypted-secrets):
    - **DB_USER**: user name of Jena Fuseki user account that has privilages to PUT RDF vocabulary to the database
    - **DB_PASS**: password of for the above account
-   - **FILE_NAME**: file name that will be used when converting Google sheet to `.ttl` (RDF), `.xlsx`, and `.csv` files.
+   - **FILE_NAME**: file name that will be used when converting Google sheet to `.ttl` (RDF), `.xlsx`, and `.csv` files. Currently set to `vocabulary`.
    - **GRAPH**: graph in the database under which the above RDF vocabulary should be stored.
    - **SHEET_ID**: unique ID of the sheet that will be fetched from Google drive.
    - **SPARQL_ENDPOINT**: endpoint to which RDF vocabulary is PUT.
